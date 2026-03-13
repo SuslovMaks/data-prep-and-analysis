@@ -51,10 +51,33 @@
   - Профіліювання часу виконання
 
 ## Інструкція із запуску
+### Підготовчий єтап
+Завантажте віртуальне середовище в вашому проєкті
+```
+python -m venv venv
+```
+
+Активуйте venv
+
+Windows
+```
+.\venv\Scripts\activate
+```
+Linux\MacOS
+```
+source venv/bin/activate
+```
+
+Встановіть Jupyter Notebook для роботи з .ipynb
+```
+pip install jupyter
+```
+
 Встановити всі залежності з файлу requirements.txt
 ```
 pip install -r requirements.txt
 ```
+
 ### Перша частина
 Для початку роботи з даними у `vhi_notebook.ipynb` потрібно виконати процедури:
 - Ініціалізації бібліотек.
